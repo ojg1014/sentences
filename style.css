@@ -1,0 +1,93 @@
+* {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+/* 페이지의 모든 태그에 대해서 select를 none을 준다. */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #403d57;
+}
+
+.head {
+  color: #D7C49E;
+  font-family: circular-book;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  font-size: xx-large;
+  margin-top: -40px;
+}
+/* copy list 제목 style. */
+
+ol {
+  font-family: circular-book;
+}
+/* 목록의 번호(1,2,3...)의 글씨체 설정. */
+
+li {
+  margin: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #D7C49E;
+  width: fit-content;
+  font-size: large;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  cursor: default;
+  margin-bottom: 10px;
+}
+/* 텍스트 부분 style. */
+
+button {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-family: circular-book;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  background: #D7C49E;
+  color: #403d57;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  margin-bottom: 50px;
+}
+/* 페이지의 모든 button 태그에 대한 style. */
+
+button:hover {
+  transform: scale(1.2);
+  background: #403d57;
+  color: #D7C49E;
+}
+/* button에 마우스를 가져다 댔을 때 효과. */
+
+button:active {
+  transition: all 0.1s ease;
+  transform: scale(0.8);
+}
+/* button을 눌렀을 때(active) 효과. */
+
+.head:hover {
+  transform: scale(1.2);
+  background: #403d57;
+  color: #D7C49E;
+}
+/* 제목에 마우스를 가져다 댔을 때 효과. */
+.head:active {
+  transition: all 0.1s ease;
+  transform: scale(0.8);
+}
+/* 제목을 눌렀을 때 효과. */
+
+.change {
+  margin-top: 30px;
+}
+

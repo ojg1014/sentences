@@ -1,0 +1,22 @@
+@font-face {
+  font-family: circular-book;
+  src:
+    local('circular-book'),
+    url('circular-book.ttf');
+
+}
+
+@font-face {
+  font-family: hangul;
+  src:
+  local('hangul'),
+  url('hangul.ttf');
+  
+}
+
+@font-face {
+  font-family: 'ELAND_Choice_M';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_M.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
